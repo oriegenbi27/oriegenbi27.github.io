@@ -1,61 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Muhammad Sobri Yatin</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Font -->
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Muhammad Sobri Yatin</a>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="text-center">Selamat Datang di CV Saya</h1>
-                <p class="text-center">[Deskripsi singkat tentang diri Anda]</p>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile2.png" height="100px" width="100px" alt="" />
+                <h1 class="name">Muhammad Sobri Yatin</h1>
+                <h3 class="tagline">Full Stack Developer</h3>
             </div>
-        </div>
+            <!--//profile-container-->
 
-        <div class="row mt-4">
-            <div class="col-lg-6">
-                <h3>Pengalaman Kerja</h3>
-                <ul>
-                    <li>[Pengalaman Kerja 1]</li>
-                    <li>[Pengalaman Kerja 2]</li>
-                    <!-- Tambahkan lebih banyak pengalaman kerja jika diperlukan -->
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: oriegenbi3@gmail.com">
+                            oriegenbi3@gmail.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:62895331999225"> 62895331999225</a></li>
+                    <li class="whatsapp"><i class="fa fa-whatsapp"></i><a
+                            href="https://wa.me/62895331999225?text=Hallo.%20Saya%20mendapatkan%20nomer%20anda%20dari%20website%20portofolio"
+                            target="_blank"> 62895331999225</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a
+                            href="https://www.linkedin.com/in/muhammad-sobri-yatin-ab7470211/" target="_blank"> Muhammad
+                            sobri Yatin/<a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/oriegenbi27"
+                            target="_blank"> github.com/oriegenbi27</a></li>
+                    <li class="facebook"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/orie.genbi/"
+                            target="_blank"> Muhammad Sobri Yatin</a></li>
                 </ul>
             </div>
-            <div class="col-lg-6">
-                <h3>Pendidikan</h3>
-                <ul>
-                    <li>[Pendidikan 1]</li>
-                    <li>[Pendidikan 2]</li>
-                    <!-- Tambahkan lebih banyak pendidikan jika diperlukan -->
+            <!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">SMK Gandasari</h4>
+                    <h5 class="meta">High School in Tangerang Indonesia</h5>
+                    <div class="time">2012 - 2015</div>
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <h4 class="degree">SMP PGRI Jatiuwung </h4>
+                    <h5 class="meta">Junior High School in Tangerang Indonesia </h5>
+                    <div class="time"> 2008 - 2011</div>
+                </div>
+                <!--//item-->
+            </div>
+            <!--//education-container-->
+
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Bahasa Indonesia <span class="lang-desc">(Professional)</span></li>
+                    <li>English <span class="lang-desc">(Beginner)</span></li>
                 </ul>
             </div>
-        </div>
+            <!--//interests-->
 
-        <div class="row mt-4">
-            <div class="col-lg-12">
-                <h3>Kontak</h3>
-                <p>Email: [Email Anda]</p>
-                <p>LinkedIn: [Link LinkedIn Anda]</p>
-                <!-- Tambahkan informasi kontak lainnya jika diperlukan -->
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Coding</li>
+                    <li>reading books</li>
+                    <li>finding things I don't know</li>
+                </ul>
             </div>
+            <!--//interests-->
+
         </div>
+        <!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Career
+                    Profile</h2>
+                <div class="summary">
+                    <p>
+                        I am a dedicated and innovative programming professional with a unique career journey as a
+                        self-taught learner. Through persistence and perseverance, I have mastered various programming
+                        languages and current technologies, utilizing online resources and personal projects to hone my
+                        skills. My self-learning approach has resulted in strong analytical skills and the ability to
+                        solve complex problems with creative solutions. I am committed to continuing my learning and
+                        growth in this field. I will contribute my expertise to develop efficient and innovative
+                        technological solutions.
+                    </p>
+                </div>
+                <!--//summary-->
+            </section>
+            <!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa fa-briefcase"></i></span>Experiences
+                </h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h2 class="job-title">Backend Dev</h2>
+                            <h3 class="job-title">PT. Zgen Media Creative</h3>
+                            <div class="time">2021 - 2023</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">One of the companies engaged in the creative industry.</div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <ol>
+                            <li>Create/MaintanceWebApplication owned by the company or client.</li>
+                            <li>Maintain and create a RESTful API for the website https://msportsid.com/ </li>
+                            <li>Creating RestFull Api using laravel for
+                                for android and ios development</li>
+                            <li>Create Auto View Bot, comments, and likes for Youtube, Tiktok, Instagram. Using python
+                                programming language</li>
+                            <li>Dedicated Server Management and Cloud VPS for hundreds of websites</li>
+                        </ol>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h2 class="job-title">Web Programmer</h2>
+                            <h3 class="job-title">CV. Nadi Inspira Edumedia ( Jurusanku )</h3>
+                            <div class="time">2019 - 2020</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">One of the companies engaged in Education consulting.</div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <ol>
+                            <li>Create / Maintance Web Aplication owned by the company.</li>
+                            <li>Fully responsible for everything related to IT in the company.</li>
+
+                        </ol>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h2 class="job-title">Web Programmer</h2>
+                            <h3 class="job-title">Nusantara Art Media</h3>
+                            <div class="time">January 2019 - July 2019</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">One of the start-up teams engaged in SEO Services, Web Development and Web
+                            Applications.</div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <ol>
+                            <li>Assist incoming SEO projects</li>
+                            <li>Creating incoming application projects.</li>
+                            <li>Being Half IT Support.</li>
+
+                        </ol>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h2 class="job-title">Web Programmer</h2>
+                            <h3 class="job-title">
+                                PT. Imania Corporation Persada</h3>
+                            <div class="time">August 2018 - January 2019</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">
+                            OA company specialized in Interior Design Services.
+                        </div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <ol>
+                            <li>Creating / Updating ERP Web Aplication </li>
+                            <li>Maintance of Company / Subsidiary Website. </li>
+                            <li>Being Half IT Support.</li>
+
+                        </ol>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h2 class="job-title">Web Programmer</h2>
+                            <h3 class="job-title">
+                                Kolink Network Solutions
+                            </h3>
+                            <div class="time">November 2017 - January 2018 </div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">
+                            A company that specializes in IT Services consulting.
+                        </div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <ol>
+                            <li>Create a company website. </li>
+                            <li>Maintance of the Company Website</li>
+                            <li>Traveled out of town for the installation of the newly opened office </li>
+
+                        </ol>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+            </section>
+            <!--//section-->
+
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa fa-archive"></i></span>Projects</h2>
+                <div class="intro">
+                    <p>One of the projects I've created</p>
+                </div>
+                <!--//intro-->
+                <div class="item">
+                    <span class="project-title"><a href="https://apg.or.id/apg/" target="_blank">APG.or.id</a></span> -
+                    <span class="project-tagline">Association Pilots Garuda</span>
+
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://boatria.com" target="_blank">Boatria</a></span> - <span
+                        class="project-tagline">Boat Rental or Water Tourism</span>
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://iac.ppicurug.ac.id" target="_blank">IKATAN ALUMNI
+                            CURUG</a></span> - <span class="project-tagline">Alumni Association that gathers all alumni
+                        of the study program, both aviators and aircraft operators, aircraft technicians, airport
+                        technicians, airport operators and flight safety operators.</span>
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="http://libertigunacipta.com" target="_blank">Liberti Guna
+                            Cipta</a></span> - <span class="project-tagline">Accounts Receivable and Accounts Payable
+                        Management System</span>
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://jagosports.live" target="_blank">7 Live
+                            Supports</a></span> -
+                    <span class="project-tagline">a multilingual news website where using laravel as the main core
+                    </span>
+                </div>
+                <!--//item-->
+            </section>
+            <!--//section-->
+
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa fa-rocket"></i></span>Skills &amp;
+                    Proficiency</h2>
+                <div class="skillset">
+                    <div class="item">
+                        <h3 class="level-title">Laravel / CodeIgniter</h3>
+                        <small class="text-bold">
+                            MIDDLE
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">PLaravel / CodeIgniter</h3>
+                        <small class="text-bold">
+                            MIDDLE
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">PHP</h3>
+                        <small class="text-bold">
+                            ADVANCE
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Mysql</h3>
+                        <small class="text-bold">
+                            MIDDLE
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">JavaScript</h3>
+                        <small class="text-bold">
+                            MIDDLE
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Python</h3>
+                        <small class="text-bold">
+                            BEGINNER
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">DART</h3>
+                        <small class="text-bold">
+                            BEGINNER
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">FLUTTER</h3>
+                        <small class="text-bold">
+                            BEGINNER
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">BOOTRAPr</h3>
+                        <small class="text-bold">
+                            ADVANCE
+                        </small>
+                    </div>
+                    <!--//item-->
+
+                </div>
+            </section>
+            <!--//skills-section-->
+
+        </div>
+        <!--//main-body-->
     </div>
 
-    <footer class="bg-dark text-white text-center p-3 mt-5">
-        <p>&copy; [Tahun] Muhammad Sobri Yatin. All Rights Reserved.</p>
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a
+                    href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div>
+        <!--//container-->
     </footer>
+    <!--//footer-->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
